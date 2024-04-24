@@ -19,7 +19,7 @@
             "requires": "symfony/security-bundle",
             "position": "after_target",
             "target": "    access_control:",
-            "content": "\n         - { path: ^/hochwarth-version/version, roles: PUBLIC_ACCESS }"
+            "content": "         - { path: ^/hochwarth-version/version, roles: PUBLIC_ACCESS }"
         }
     ]
 }
