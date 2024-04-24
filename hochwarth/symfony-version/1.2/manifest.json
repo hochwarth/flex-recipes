@@ -1,6 +1,6 @@
 {
     "bundles": {
-        "HochwarthVersionBundle": [
+        "HochwarthVersionBundle\\HochwarthVersionBundle": [
             "all"
         ]
     },
@@ -12,5 +12,14 @@
         "VERSION_ACCESS_KEY": "CHANGEME",
         "#2": "Access Secret",
         "VERSION_ACCESS_SECRET": "CHANGEME"
-    }
+    },
+    "add-lines": [
+        {
+            "file": "config/packages/security.yaml",
+            "requires": "symfony/security-bundle",
+            "position": "after_target",
+            "target": "    access_control:",
+            "content": "\n         - { path: ^/hochwarth-version/version, roles: PUBLIC_ACCESS }"
+        }
+    ]
 }
