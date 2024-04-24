@@ -1,0 +1,12 @@
+{
+    "recipes": {
+        "hochwarth/symfony-version": [
+            "1.2"
+        ]
+    },
+    "branch": "main",
+    "_links": {
+        "repository": "github.com/hochwarth/flex-recipes",
+        
+    }
+}
