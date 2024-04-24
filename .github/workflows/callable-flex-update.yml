@@ -42,8 +42,8 @@ jobs:
                 name: Update Flex endpoint
                 run: |
                     mkdir .github/flex-endpoint
-                    git ls-tree HEAD */*/* | php .github/recipes-checker-main/run generate:flex-endpoint ${{ github.repository }} ${{ inputs.branch }} main .github/flex-endpoint ${{ inputs.versions_json }} ${{ inputs.contrib && '--contrib' || '' }}
-                    git switch main
+                    git ls-tree HEAD */*/* | php .github/recipes-checker-main/run generate:flex-endpoint ${{ github.repository }} ${{ inputs.branch }} flex/main .github/flex-endpoint ${{ inputs.versions_json }} ${{ inputs.contrib && '--contrib' || '' }}
+                    git switch flex/main
                     git rm -q *.json
                     mv .github/flex-endpoint/*.json .
                     git add *.json
@@ -52,4 +52,4 @@ jobs:
                     php .github/recipes-checker-main/run generate:recipes-readme index.json ${{ inputs.contrib && '--contrib' || '' }} > RECIPES.md
                     git add RECIPES.md
                     git commit -m 'Update Flex endpoint' || true
-                    git push origin -f main
+                    git push origin -f flex/main
