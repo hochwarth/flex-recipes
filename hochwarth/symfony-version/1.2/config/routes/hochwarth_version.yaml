@@ -1,2 +1,0 @@
-hochwarth_version:
-  resource: '@HochwarthVersionBundle/Resources/config/routes/routes.yaml'
