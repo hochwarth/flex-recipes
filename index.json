@@ -10,8 +10,8 @@
     "branch": "main",
     "_links": {
         "repository": "github.com/hochwarth/flex-recipes",
-        "recipe_template": "https://raw.githubusercontent.com/hochwarth/flex-recipes/main/{package}/{version}/manifest.json",
-        "recipe_template_relative": "{package}/{version}/manifest.json",
-        "origin_template": "{package}:{version}@github.com/hochwarth/flex-recipes:main"
+        "recipe_template": "https://raw.githubusercontent.com/hochwarth/flex-recipes/main/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
+        "origin_template": "{package_dotted}:{version}@github.com/hochwarth/flex-recipes:main"
     }
 }
