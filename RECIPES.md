@@ -4,4 +4,4 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 
 | Package | Latest Recipe |
 | --- | --- |
-| [hochwarth/symfony-bundle](https://packagist.org/packages/hochwarth/symfony-bundle) | [1.2](hochwarth/symfony-bundle/1.2) |
+| [hochwarth/symfony-version](https://packagist.org/packages/hochwarth/symfony-version) | [1.2](hochwarth/symfony-version/1.2) |

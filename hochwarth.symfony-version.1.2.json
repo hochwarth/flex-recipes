@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "hochwarth/symfony-bundle": {
+        "hochwarth/symfony-version": {
             "manifest": {
                 "bundles": {
                     "HochwarthVersionBundle": [

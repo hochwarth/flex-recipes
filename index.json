@@ -1,7 +1,7 @@
 {
     "aliases": [],
     "recipes": {
-        "hochwarth/symfony-bundle": [
+        "hochwarth/symfony-version": [
             "1.2"
         ]
     },
