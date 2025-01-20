@@ -1,0 +1,6 @@
+* style.css wurde in den Ordner /assets/css/ kopiert. Binde diese Datei ein
+  und verwende die Dokumentation unter https://TODO für Hilfe.
+
+  Bei weiteren Fragen melde dich bei
+  - Sven Nolting <nolting@hochwarth-it.de> (Komponentenentwicklung/-implementierung)
+  - Madeline Egert <egert@hochwarth-it.de> (Design und Konzeption)
