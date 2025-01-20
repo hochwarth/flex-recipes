@@ -1,0 +1,11 @@
+{
+    "bundles": {
+        "Hochwarth\\ComponentBundleSymfony": [
+            "all"
+        ]
+    },
+    "copy-from-recipe": {
+        "src/css/": "assets/css/"
+    },
+    
+}
