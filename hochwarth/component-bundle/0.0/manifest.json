@@ -6,6 +6,5 @@
     },
     "copy-from-recipe": {
         "src/css/": "assets/css/"
-    },
-    
+    }
 }
