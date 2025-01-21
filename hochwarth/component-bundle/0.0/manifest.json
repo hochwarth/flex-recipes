@@ -4,7 +4,7 @@
             "all"
         ]
     },
-    "copy-from-recipe": {
+    "copy-from-package": {
         "src/css/": "assets/css/"
     }
 }
