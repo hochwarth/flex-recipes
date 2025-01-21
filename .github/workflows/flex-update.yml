@@ -11,6 +11,6 @@ defaults:
 
 jobs:
     call-flex-update:
-        uses: hochwarth/flex-recipes/.github/workflows/callable-flex-update.yml@main
-        # with:
-        #     versions_json: .github/versions.json
+        uses: symfony/recipes/.github/workflows/callable-flex-update.yml@main
+        with:
+            contrib: true
