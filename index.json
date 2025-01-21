@@ -1,6 +1,9 @@
 {
     "aliases": [],
     "recipes": {
+        "hochwarth/component-bundle": [
+            "0.0"
+        ],
         "hochwarth/symfony-version": [
             "1.2"
         ]
@@ -8,7 +11,7 @@
     "recipe-conflicts": [],
     "versions": [],
     "branch": "main",
-    "is_contrib": false,
+    "is_contrib": true,
     "_links": {
         "repository": "github.com/hochwarth/flex-recipes",
         "origin_template": "{package}:{version}@github.com/hochwarth/flex-recipes:main",
