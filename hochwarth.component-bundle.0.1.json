@@ -8,7 +8,7 @@
                     ]
                 },
                 "copy-from-package": {
-                    "src/css/": "assets/css/"
+                    "dist/css/": "assets/styles/"
                 },
                 "post-install-output": [
                     "* style.css wurde in den Ordner /assets/css/ kopiert. Binde diese Datei ein",
@@ -20,7 +20,7 @@
                 ]
             },
             "files": [],
-            "ref": "ee907d1d2d56c51a32c47429f6c31d6008eead67"
+            "ref": "284efc740d1d64d599b2d45ed037760787ccf1c9"
         }
     }
 }

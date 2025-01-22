@@ -1,0 +1,26 @@
+{
+    "manifests": {
+        "hochwarth/component-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Hochwarth\\ComponentBundleSymfony": [
+                        "all"
+                    ]
+                },
+                "copy-from-package": {
+                    "dist/css/": "assets/styles/"
+                },
+                "post-install-output": [
+                    "* style.css wurde in den Ordner /assets/css/ kopiert. Binde diese Datei ein",
+                    "  und verwende die Dokumentation unter https://TODO f\u00fcr Hilfe.",
+                    "",
+                    "  Bei weiteren Fragen melde dich bei",
+                    "  - Sven Nolting <nolting@hochwarth-it.de> (Komponentenentwicklung/-implementierung)",
+                    "  - Madeline Egert <egert@hochwarth-it.de> (Design und Konzeption)"
+                ]
+            },
+            "files": [],
+            "ref": "284efc740d1d64d599b2d45ed037760787ccf1c9"
+        }
+    }
+}
