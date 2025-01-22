@@ -1,6 +1,6 @@
-> style.css wurde in den Ordner /assets/styles/ kopiert. Binde diese Datei ein
-> und verwende die Dokumentation unter https://github.com/hochwarth/hit-component-library/wiki für Hilfe.
-
-> Bei weiteren Fragen melde dich bei
-> - Sven Nolting <nolting@hochwarth-it.de> (Komponentenentwicklung/-implementierung)
-> - Madeline Egert <egert@hochwarth-it.de> (Design und Konzeption)
+* style.css wurde in den Ordner /assets/styles/ kopiert. Binde diese Datei ein
+  und verwende die Dokumentation unter https://github.com/hochwarth/hit-component-library/wiki für Hilfe.
+ 
+* Bei weiteren Fragen melde dich bei
+  - Sven Nolting <nolting@hochwarth-it.de> (Komponentenentwicklung/-implementierung)
+  - Madeline Egert <egert@hochwarth-it.de> (Design und Konzeption)
