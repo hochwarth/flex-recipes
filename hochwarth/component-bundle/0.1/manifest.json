@@ -5,6 +5,6 @@
         ]
     },
     "copy-from-package": {
-        "src/css/": "assets/css/"
+        "dist/css/": "assets/styles/"
     }
 }
