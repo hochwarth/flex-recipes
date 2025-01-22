@@ -1,6 +1,6 @@
 {
     "bundles": {
-        "Hochwarth\\ComponentBundleSymfony": [
+        "Hochwarth\\ComponentBundleSymfony\\HochwarthComponentBundle": [
             "all"
         ]
     },
