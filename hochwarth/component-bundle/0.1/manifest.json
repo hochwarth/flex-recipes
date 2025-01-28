@@ -16,7 +16,7 @@
             "file": "assets/app.js",
             "requires": "symfony/asset-mapper",
             "position": "bottom",
-            "content": "import '../vendor/hochwarth/component-bundle/dist/css/style.css';"
+            "content": "import '../vendor/hochwarth/component-bundle/dist/css/style.css';\n"
         }
     ]
 }
