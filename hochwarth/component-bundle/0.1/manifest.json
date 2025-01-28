@@ -4,7 +4,19 @@
             "all"
         ]
     },
-    "copy-from-package": {
-        "dist/css/": "assets/styles/"
-    }
+    "add-lines": [
+        {
+            "file": "config/packages/asset_mapper.yaml",
+            "requires": "symfony/asset-mapper",
+            "position": "after_target",
+            "target": "            - assets/",
+            "content": "            - vendor/hochwarth/component-bundle/dist/"
+        },
+        {
+            "file": "assets/app.js",
+            "requires": "symfony/asset-mapper",
+            "position": "bottom",
+            "content": "import '../vendor/hochwarth/component-bundle/dist/css/style.css';"
+        }
+    ]
 }
