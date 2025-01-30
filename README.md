@@ -1,0 +1,1 @@
+Optionen für manifest.json Dateien: [Symfony Flex Readme](https://github.com/symfony/recipes/tree/main?tab=readme-ov-file#options)
