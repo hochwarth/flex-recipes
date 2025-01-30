@@ -1,0 +1,10 @@
+{
+    "bundles": {
+        "Hochwarth\\ComponentBundleSymfony\\HochwarthComponentBundle": [
+            "all"
+        ]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%"
+    }
+}
