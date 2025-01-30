@@ -1,0 +1,28 @@
+{
+    "manifests": {
+        "hochwarth/component-bundle-symfony": {
+            "manifest": {
+                "bundles": {
+                    "Hochwarth\\ComponentBundleSymfony\\HochwarthComponentBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+                "config/routes/hochwarth_component_bundle.yaml": {
+                    "contents": [
+                        "hochwarth_component_bundle:",
+                        "    resource: '@HochwarthComponent/config/routes.yaml'",
+                        "    prefix: '/hitCB'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "e8677715c239c4d86e86c6ce7f73390b0dbd7dc2"
+        }
+    }
+}

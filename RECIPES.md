@@ -5,4 +5,5 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 | Package | Latest Recipe |
 | --- | --- |
 | [hochwarth/component-bundle](https://packagist.org/packages/hochwarth/component-bundle) | [0.1](hochwarth/component-bundle/0.1) |
+| [hochwarth/component-bundle-symfony](https://packagist.org/packages/hochwarth/component-bundle-symfony) | [0.2](hochwarth/component-bundle-symfony/0.2) |
 | [hochwarth/symfony-version](https://packagist.org/packages/hochwarth/symfony-version) | [1.2](hochwarth/symfony-version/1.2) |
