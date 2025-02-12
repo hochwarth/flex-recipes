@@ -1,0 +1,5 @@
+{
+  "composer-scripts": {
+    "database:migrate --all SwTools": "symfony-cmd"
+  }
+}
