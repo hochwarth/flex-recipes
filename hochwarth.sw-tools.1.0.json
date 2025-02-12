@@ -1,0 +1,13 @@
+{
+    "manifests": {
+        "hochwarth/sw-tools": {
+            "manifest": {
+                "composer-scripts": {
+                    "database:migrate --all SwTools": "symfony-cmd"
+                }
+            },
+            "files": [],
+            "ref": "3f27521a464d2ab2ea1c403cb4aa7fcbd0b9fe2c"
+        }
+    }
+}
