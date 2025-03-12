@@ -10,6 +10,9 @@
         "hochwarth/sw-tools": [
             "1.0"
         ],
+        "hochwarth/symfony-microsoft-auth-bundle": [
+            "0.1"
+        ],
         "hochwarth/symfony-version": [
             "1.2"
         ]
