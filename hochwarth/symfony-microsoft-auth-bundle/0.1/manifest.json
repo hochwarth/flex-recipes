@@ -17,5 +17,16 @@
         "MICROSOFT_SCOPES": ".default",
         "#6": "Required Role for app access (empty for no role Required)",
         "HIT_MS_REQUIRED_ROLE": ""
+    },
+    "add-lines": [
+        {
+            "file": "config/packages/security.yaml",
+            "content": "\n            custom_authenticator: Hochwarth\\MicrosoftAuthBundle\\Security\\OauthAuthenticator",
+            "position": "after_target",
+            "target": "main:"
+        }
+    ],
+    "copy-from-recipe": {
+        "assets/": "assets/"
     }
 }
