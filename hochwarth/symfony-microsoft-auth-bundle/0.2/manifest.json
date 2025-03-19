@@ -1,0 +1,30 @@
+{
+    "bundles": {
+        "Hochwarth\\MicrosoftAuthBundle\\MicrosoftAuthBundle": [
+            "all"
+        ]
+    },
+    "env": {
+        "#1": "Microsoft Client ID",
+        "MICROSOFT_CLIENT_ID": "CHANGEME",
+        "#2": "Microsoft Client Secret",
+        "MICROSOFT_CLIENT_SECRET": "CHANGEME",
+        "#3": "Microsoft Tenant ID",
+        "MICROSOFT_TENANT_ID": "CHANGEME",
+        "#4": "Microsoft Redirect URI",
+        "MICROSOFT_REDIRECT_URI": "CHANGEME",
+        "#5": "Microsoft Scopes",
+        "MICROSOFT_SCOPES": ".default"
+    },
+    "add-lines": [
+        {
+            "file": "config/packages/security.yaml",
+            "content": "\n            custom_authenticator: Hochwarth\\MicrosoftAuthBundle\\Security\\OauthAuthenticator",
+            "position": "after_target",
+            "target": "main:"
+        }
+    ],
+    "copy-from-recipe": {
+        "assets/": "assets/"
+    }
+}
