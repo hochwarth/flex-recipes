@@ -5,4 +5,5 @@
  
 ❓ Bei weiteren Fragen melde dich bei
   - Sven Nolting <nolting@hochwarth-it.de> (Komponentenentwicklung/-implementierung)
+  - Phillip Weidinger <weidinger@hochwarth-it.de> (Komponentenentwicklung/-implementierung und Design)
   - Madeline Egert <egert@hochwarth-it.de> (Design und Konzeption)
