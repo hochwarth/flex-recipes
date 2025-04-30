@@ -19,7 +19,7 @@
     "add-lines": [
         {
             "file": "config/packages/security.yaml",
-            "content": "\n            custom_authenticator: Hochwarth\\MicrosoftAuthBundle\\Security\\OauthAuthenticator",
+            "content": "\n            custom_authenticator: Hochwarth\\MicrosoftAuthBundle\\Security\\OauthAuthenticator\n\n",
             "position": "after_target",
             "target": "main:"
         }
