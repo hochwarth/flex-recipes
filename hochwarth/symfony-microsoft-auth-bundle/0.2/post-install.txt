@@ -6,3 +6,4 @@
       - offline_access
     3. Make sure the following logout URL is set:
       -> https://<your-domain>/logout
+  - Generate and run migrations to include the new User Entity
