@@ -25,6 +25,7 @@
         }
     ],
     "copy-from-recipe": {
-        "assets/": "assets/"
+        "assets/": "assets/",
+        "config/": "%CONFIG_DIR%"
     }
 }

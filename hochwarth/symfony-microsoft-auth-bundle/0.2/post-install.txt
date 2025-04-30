@@ -1,0 +1,8 @@
+* TODO:
+  - Generate a Microsoft Application and fill in the client id and secret in the .env.local file
+    1. https://portal.azure.com
+    2. Make sure the following permissions are set:
+      - User.Read
+      - offline_access
+    3. Make sure the following logout URL is set:
+      -> https://<your-domain>/logout

@@ -1,0 +1,3 @@
+hochwarth_component_bundle_symfony:
+  resource: '@MicrosoftAuthBundle/config/routes.yaml'
+  prefix: '/hitMS'
