@@ -7,6 +7,9 @@
         "hochwarth/component-bundle-symfony": [
             "0.2"
         ],
+        "hochwarth/sw-dev-ops": [
+            "1.0"
+        ],
         "hochwarth/sw-tools": [
             "1.0"
         ],
