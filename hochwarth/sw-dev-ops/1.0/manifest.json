@@ -1,6 +1,10 @@
 {
   "copy-from-recipe": {
-    "src/": "src/",
-    "root/": ""
+    "src/": "src/"
+  },
+  "composer-scripts": {
+    "cp -p vendor/hochwarth/sw-dev-ops/bin/pre-commit .git/hooks/pre-commit": "script",
+    "cp -p vendor/hochwarth/sw-dev-ops/bin/post-update .git/hooks/post-update":  "script",
+    "cp -p vendor/hochwarth/sw-dev-ops/bin/post-update .git/hooks/post-checkout": "script"
   }
 }
