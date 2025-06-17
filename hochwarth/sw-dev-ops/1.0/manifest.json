@@ -1,6 +1,7 @@
 {
   "copy-from-recipe": {
-    "src/": "src/"
+    "src/": "src/",
+    ".env.phpstan_dev": ".env.phpstan_dev"
   },
   "composer-scripts": {
     "cp -p vendor/hochwarth/sw-dev-ops/bin/pre-commit .git/hooks/pre-commit": "script",
